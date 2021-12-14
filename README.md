@@ -17,7 +17,7 @@ Isletim Sistemleri Proje Odevi
 -----------------------
 shell.c -> Oluşturduğumuz kabuk dosyası.
 
-readme.docx -> Beni oku dosyası..
+readme.docx -> Beni oku dosyası.
 
 
 3-Programın Derlenmesi İçin Talimatlar:
