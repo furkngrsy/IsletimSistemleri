@@ -31,7 +31,7 @@ void forkOlusturma(char** parsed)// Cocuk olusturma.
             printf("\nCocuk pid->%d\n",cpid);
         }
         exit(0);
-    } else {//Ebeveyn proses bekleme durumu
+    } else {//Ebeveyn proses bekleme durumu.
         epid=getpid();
          printf("\nEbeveyn pid->%d",epid);
         wait(NULL); 
