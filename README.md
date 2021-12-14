@@ -22,7 +22,7 @@ readme.docx -> Beni oku dosyası..
 
 3-Programın Derlenmesi İçin Talimatlar:
 -----------------------
-sudo apt-get install libreadline-dev //readline fonksiyonu çalışması için Linux’e yazılan komut.
+sudo apt-get install libreadline-dev  //readline fonksiyonu çalışması için Linux’e yazılan komut.
 
 gcc shell.c -lreadline //programın derlenmesi için girilen komut.
 
