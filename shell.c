@@ -11,7 +11,7 @@ void exit_from_console(){//Kabuktan cikis fonksiyonu.
     printf("exit\n");
     exit(EXIT_SUCCESS);
 }
-void printDirectory(){//Calistirilan kabugun dosya yolu.
+void printDirectory(){ //Calistirilan kabugun dosya yolu.
     char pwd[1024];
     getcwd(pwd, sizeof(pwd));
     printf("\n%s ",pwd);
