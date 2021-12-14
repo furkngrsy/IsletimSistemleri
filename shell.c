@@ -16,7 +16,7 @@ void printDirectory(){//Calistirilan kabugun dosya yolu.
     getcwd(pwd, sizeof(pwd));
     printf("\n%s ",pwd);
 }
-void forkOlusturma(char** parsed)// Cocuk olusturma
+void forkOlusturma(char** parsed)// Cocuk olusturma.
 {
     pid_t pid = fork();
     int cpid;
